@@ -75,8 +75,8 @@ The `ProductsMicroservice` is configured to never lose a message:
 
 2. **Clone the repository:**
    ```bash
-   git clone [https://github.com/efeerturk7/](https://github.com/efeerturk7/)[your-repo-name].git
-   cd [your-repo-name]
+   git clone [https://github.com/efeerturk7/](https://github.com/efeerturk7/)[https://github.com/efeerturk7/kafka-microservices-workspace].git
+   cd [https://github.com/efeerturk7/kafka-microservices-workspace]
 Start the Microservices:
 Run both ProductsMicroservice and EmailNotificationMicroservice via your IDE or Maven/Gradle wrapper.
 
