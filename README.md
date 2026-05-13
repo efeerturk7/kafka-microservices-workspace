@@ -83,9 +83,10 @@ Run both ProductsMicroservice and EmailNotificationMicroservice via your IDE or 
 Trigger an Event:
 Use the following cURL command (or Postman) to create a product and watch the logs as the message travels through Kafka:
 
-Bash
+```bash
 curl -X POST http://localhost:8080/products/createProduct \
 -H "Content-Type: application/json" \
 -d '{"title": "MacBook Pro", "price": 2500.0, "quantity": 5}'
+```
 👨‍💻 Author
 Bahadır Efe ERTÜRK - Backend Developer
