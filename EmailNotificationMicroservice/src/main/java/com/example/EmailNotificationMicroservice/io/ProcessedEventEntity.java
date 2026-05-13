@@ -9,6 +9,8 @@ import java.io.Serializable;
 @Entity
 @Table(name = "processed-event")
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 
 public class ProcessedEventEntity implements Serializable {
     private static final long serialVersionUID = 3374468422352L;
@@ -20,8 +22,5 @@ public class ProcessedEventEntity implements Serializable {
 
     @Column(nullable = false)
     private String productId;
-    public ProcessedEventEntity(String messageId, String productId) {
-        this.messageId = messageId;
-        this.productId = productId;
-    }
+
 }
